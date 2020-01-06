@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <Context.Provider value={{ dispatch }}>
-      <div className="container">
+      {/* <div className="container">
         <h1>Todo app</h1>
 
           <div className="input-field">
@@ -39,7 +39,7 @@ export default function App() {
           </div>
 
           <TodoList todos={state} />
-      </div>
+      </div> */}
       <Parallax />
     </Context.Provider>
   );

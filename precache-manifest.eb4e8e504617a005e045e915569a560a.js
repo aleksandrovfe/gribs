@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8e1e42bf3647825464f570f6feff2ee",
+    "revision": "1fcaff57a1cb22a9705d020c355d132f",
     "url": "/gribs/index.html"
   },
   {
-    "revision": "8f9b80dad8c785c58430",
-    "url": "/gribs/static/css/main.a1cad6cb.chunk.css"
+    "revision": "1daad409fce2c989d32d",
+    "url": "/gribs/static/css/main.d50ffbd8.chunk.css"
   },
   {
     "revision": "789ed96aee17e1633aa2",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gribs/static/js/2.9a08f8ff.chunk.js.LICENSE"
   },
   {
-    "revision": "8f9b80dad8c785c58430",
-    "url": "/gribs/static/js/main.2c6d34bd.chunk.js"
+    "revision": "1daad409fce2c989d32d",
+    "url": "/gribs/static/js/main.2f8dfef9.chunk.js"
   },
   {
     "revision": "d3499695b745e53b385e",
     "url": "/gribs/static/js/runtime-main.9940a5c1.js"
   },
   {
-    "revision": "e6d21a9a40aa911c3e8ff9ae44bfa213",
-    "url": "/gribs/static/media/bg-header.e6d21a9a.jpg"
+    "revision": "606c03104073249cb5722cab1bfe15a5",
+    "url": "/gribs/static/media/bridge.606c0310.jpg"
   },
   {
     "revision": "ee4fa97366e2d827d321463d1be418cf",

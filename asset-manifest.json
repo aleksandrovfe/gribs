@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/gribs/static/css/main.d50ffbd8.chunk.css",
-    "main.js": "/gribs/static/js/main.2f8dfef9.chunk.js",
-    "main.js.map": "/gribs/static/js/main.2f8dfef9.chunk.js.map",
+    "main.css": "/gribs/static/css/main.617c701e.chunk.css",
+    "main.js": "/gribs/static/js/main.63b7c56e.chunk.js",
+    "main.js.map": "/gribs/static/js/main.63b7c56e.chunk.js.map",
     "runtime-main.js": "/gribs/static/js/runtime-main.9940a5c1.js",
     "runtime-main.js.map": "/gribs/static/js/runtime-main.9940a5c1.js.map",
-    "static/js/2.9a08f8ff.chunk.js": "/gribs/static/js/2.9a08f8ff.chunk.js",
-    "static/js/2.9a08f8ff.chunk.js.map": "/gribs/static/js/2.9a08f8ff.chunk.js.map",
+    "static/js/2.354c5228.chunk.js": "/gribs/static/js/2.354c5228.chunk.js",
+    "static/js/2.354c5228.chunk.js.map": "/gribs/static/js/2.354c5228.chunk.js.map",
     "index.html": "/gribs/index.html",
-    "precache-manifest.eb4e8e504617a005e045e915569a560a.js": "/gribs/precache-manifest.eb4e8e504617a005e045e915569a560a.js",
+    "precache-manifest.e7501830fc8523bde9286b49725c9300.js": "/gribs/precache-manifest.e7501830fc8523bde9286b49725c9300.js",
     "service-worker.js": "/gribs/service-worker.js",
-    "static/css/main.d50ffbd8.chunk.css.map": "/gribs/static/css/main.d50ffbd8.chunk.css.map",
-    "static/js/2.9a08f8ff.chunk.js.LICENSE": "/gribs/static/js/2.9a08f8ff.chunk.js.LICENSE",
-    "static/media/index.css": "/gribs/static/media/water.af69f74c.jpg"
+    "static/css/main.617c701e.chunk.css.map": "/gribs/static/css/main.617c701e.chunk.css.map",
+    "static/js/2.354c5228.chunk.js.LICENSE": "/gribs/static/js/2.354c5228.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9940a5c1.js",
-    "static/js/2.9a08f8ff.chunk.js",
-    "static/css/main.d50ffbd8.chunk.css",
-    "static/js/main.2f8dfef9.chunk.js"
+    "static/js/2.354c5228.chunk.js",
+    "static/css/main.617c701e.chunk.css",
+    "static/js/main.63b7c56e.chunk.js"
   ]
 }

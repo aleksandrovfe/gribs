@@ -5,7 +5,6 @@ import reducer from './reducer';
 import Parallax from './Parallax';
 import ThreeJs from './ThreeJS';
 import Sign from './Sign';
-import Sign from './../public/assets/';
 
 const SocailNetworkProj = {
   description: `

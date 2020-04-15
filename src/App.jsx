@@ -5,6 +5,7 @@ import reducer from './reducer';
 import Parallax from './Parallax';
 import ThreeJs from './ThreeJS';
 import Sign from './Sign';
+import Sign from './../public/assets/';
 
 const SocailNetworkProj = {
   description: `
@@ -12,7 +13,7 @@ const SocailNetworkProj = {
     If you do not want to register, you can use my
     test login: aleksandrov7296@gmail.com and password: grizzman`,
   sign: 'Social Network',
-  img: '/assets/proj1.png',
+  img: './../public/assets/proj1.png',
   link: 'https://aleksandrovfe.github.io/socialnetwork/#/socialnetwork/profile',
 }
 

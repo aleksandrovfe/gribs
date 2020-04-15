@@ -286,3 +286,15 @@ display: grid;
 .trails-text > div {
   overflow: hidden;
 }
+
+.descrtiption__link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 10px;
+  transition: .3s;
+}
+
+.descrtiption__link:hover {
+  color: blue;
+}

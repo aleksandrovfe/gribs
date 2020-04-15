@@ -5,7 +5,7 @@ const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWid
 const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
 
-const ThreeJs = ({img, description, link, sign}) => {
+const ThreeJs = ({img, description, link, sign, codeLink}) => {
   const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
 
   const onfollowLink = () => {
@@ -24,7 +24,10 @@ const ThreeJs = ({img, description, link, sign}) => {
           style={{ transform: props.xys.interpolate(trans) }}
         />
       <div className="descrtiption__wrapper">
-        <p className="description">{description}</p>
+        <p className="description">
+          {description} <br/>
+          <a className="descrtiption__link" href={codeLink}>Link to GitHub code</a>
+        </p>
       </div>
     </div>
   )

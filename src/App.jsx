@@ -8,33 +8,37 @@ import Sign from './Sign';
 
 const SocailNetworkProj = {
   description: `
-    Technology used: React, Redux, React Router, Redux Form, HTML5, CSS3. <br/>
+    Technology used: React, Redux, React Router, Redux Thunk, Redux Form, HTML5, CSS3.
     If you do not want to register, you can use my
     test login: aleksandrov7296@gmail.com and password: grizzman`,
   sign: 'Social Network',
-  img: '/assets/proj1.png',
+  img: 'assets/proj1.png',
   link: 'https://aleksandrovfe.github.io/socialnetwork/#/socialnetwork/profile',
+  codeLink: 'https://github.com/aleksandrovfe/socialnetwork',
 }
 
 const PresentationPageProj = {
   description: `Technology used: JS, HTML5, CSS3.`,
   sign: 'Presentation Page',
-  img: '/assets/proj2.png',
+  img: 'assets/proj2.png',
   link: 'https://aleksandrovfe.github.io/pattern/',
+  codeLink: 'https://github.com/aleksandrovfe/pattern',
 }
 
 const PhoneCatalogProj = {
   description: `Technology used: React, React Router, HTML5, CSS3.`,
   sign: 'Phone Catalog',
-  img: '/assets/proj3.png',
+  img: 'assets/proj3.png',
   link: 'https://aleksandrovfe.github.io/react_phone-catalog/#/',
+  codeLink: 'https://github.com/mate-academy/react_phone-catalog/pull/12/files',
 }
 
 const TodoAppProject = {
   description: `Technology used: React, React Router, HTML5, CSS3.`,
   sign: 'Todo app',
-  img: '/assets/proj4.png',
+  img: 'assets/proj4.png',
   link: 'https://aleksandrovfe.github.io/react_todo-app/#/',
+  codeLink: 'https://github.com/aleksandrovfe/uber_eats/pull/7/files',
 }
 
 export default function App() {
@@ -74,14 +78,13 @@ export default function App() {
           <TodoList todos={state} /> */}
       {/* </div> */}
       {/* <Parallax /> */}
-      <img src={SocailNetworkProj.img} alt=""/>
       <div className="app">
         <Sign />
         <div className="container">
-          <ThreeJs sign={SocailNetworkProj.sign} link={SocailNetworkProj.link} description={SocailNetworkProj.description} img={SocailNetworkProj.img}/>
-          <ThreeJs sign={PresentationPageProj.sign} link={PresentationPageProj.link} description={PresentationPageProj.description} img={PresentationPageProj.img}/>
-          <ThreeJs sign={PhoneCatalogProj.sign} link={PhoneCatalogProj.link} description={PhoneCatalogProj.description} img={PhoneCatalogProj.img}/>
-          <ThreeJs sign={TodoAppProject.sign} link={TodoAppProject.link} description={TodoAppProject.description} img={TodoAppProject.img}/>
+          <ThreeJs codeLink={SocailNetworkProj.codeLink} sign={SocailNetworkProj.sign} link={SocailNetworkProj.link} description={SocailNetworkProj.description} img={SocailNetworkProj.img}/>
+          <ThreeJs codeLink={PresentationPageProj.codeLink} sign={PresentationPageProj.sign} link={PresentationPageProj.link} description={PresentationPageProj.description} img={PresentationPageProj.img}/>
+          <ThreeJs codeLink={PhoneCatalogProj.codeLink} sign={PhoneCatalogProj.sign} link={PhoneCatalogProj.link} description={PhoneCatalogProj.description} img={PhoneCatalogProj.img}/>
+          <ThreeJs codeLink={TodoAppProject.codeLink} sign={TodoAppProject.sign} link={TodoAppProject.link} description={TodoAppProject.description} img={TodoAppProject.img}/>
         </div>
       </div>
       

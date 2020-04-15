@@ -12,7 +12,7 @@ const SocailNetworkProj = {
     If you do not want to register, you can use my
     test login: aleksandrov7296@gmail.com and password: grizzman`,
   sign: 'Social Network',
-  img: './../public/assets/proj1.png',
+  img: '/assets/proj1.png',
   link: 'https://aleksandrovfe.github.io/socialnetwork/#/socialnetwork/profile',
 }
 
@@ -74,6 +74,7 @@ export default function App() {
           <TodoList todos={state} /> */}
       {/* </div> */}
       {/* <Parallax /> */}
+      <img src={SocailNetworkProj.img} alt=""/>
       <div className="app">
         <Sign />
         <div className="container">

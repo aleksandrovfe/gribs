@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gribs/static/css/main.617c701e.chunk.css",
-    "main.js": "/gribs/static/js/main.c9a87594.chunk.js",
-    "main.js.map": "/gribs/static/js/main.c9a87594.chunk.js.map",
+    "main.css": "/gribs/static/css/main.a0ba2f6a.chunk.css",
+    "main.js": "/gribs/static/js/main.2da84d3e.chunk.js",
+    "main.js.map": "/gribs/static/js/main.2da84d3e.chunk.js.map",
     "runtime-main.js": "/gribs/static/js/runtime-main.9940a5c1.js",
     "runtime-main.js.map": "/gribs/static/js/runtime-main.9940a5c1.js.map",
     "static/js/2.354c5228.chunk.js": "/gribs/static/js/2.354c5228.chunk.js",
     "static/js/2.354c5228.chunk.js.map": "/gribs/static/js/2.354c5228.chunk.js.map",
     "index.html": "/gribs/index.html",
-    "precache-manifest.c96e0544941812840bf74457e10ef8ae.js": "/gribs/precache-manifest.c96e0544941812840bf74457e10ef8ae.js",
+    "precache-manifest.efb2bfeed2877c5c97d93c110dbdfdb4.js": "/gribs/precache-manifest.efb2bfeed2877c5c97d93c110dbdfdb4.js",
     "service-worker.js": "/gribs/service-worker.js",
-    "static/css/main.617c701e.chunk.css.map": "/gribs/static/css/main.617c701e.chunk.css.map",
+    "static/css/main.a0ba2f6a.chunk.css.map": "/gribs/static/css/main.a0ba2f6a.chunk.css.map",
     "static/js/2.354c5228.chunk.js.LICENSE": "/gribs/static/js/2.354c5228.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9940a5c1.js",
     "static/js/2.354c5228.chunk.js",
-    "static/css/main.617c701e.chunk.css",
-    "static/js/main.c9a87594.chunk.js"
+    "static/css/main.a0ba2f6a.chunk.css",
+    "static/js/main.2da84d3e.chunk.js"
   ]
 }

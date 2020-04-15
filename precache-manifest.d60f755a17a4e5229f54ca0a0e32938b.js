@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df7a5f95a891d73e5f0af3beaf3654a1",
+    "revision": "b2d0a0b4daa4a0b0b4f2385f69267bce",
     "url": "/gribs/index.html"
   },
   {
-    "revision": "e303c6ad26780329c55a",
+    "revision": "0a6986567d0a6f0cf50d",
     "url": "/gribs/static/css/main.617c701e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gribs/static/js/2.354c5228.chunk.js.LICENSE"
   },
   {
-    "revision": "e303c6ad26780329c55a",
-    "url": "/gribs/static/js/main.63b7c56e.chunk.js"
+    "revision": "0a6986567d0a6f0cf50d",
+    "url": "/gribs/static/js/main.260cdaeb.chunk.js"
   },
   {
     "revision": "d3499695b745e53b385e",

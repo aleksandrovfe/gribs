@@ -146,7 +146,7 @@ display: grid;
   }
 
   .wrapper {
-    height: 600px;
+    height: 650px;
   }
 
   .container {
@@ -161,5 +161,6 @@ display: grid;
   .descrtiption__wrapper {
     font-size: 15px;
     letter-spacing: 0px;
+    padding: 10px;
   }
 }

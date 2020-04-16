@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gribs/static/css/main.2e07af5e.chunk.css",
+    "main.css": "/gribs/static/css/main.eae86770.chunk.css",
     "main.js": "/gribs/static/js/main.d166b709.chunk.js",
     "main.js.map": "/gribs/static/js/main.d166b709.chunk.js.map",
     "runtime-main.js": "/gribs/static/js/runtime-main.9940a5c1.js",
@@ -8,15 +8,15 @@
     "static/js/2.5bc62c47.chunk.js": "/gribs/static/js/2.5bc62c47.chunk.js",
     "static/js/2.5bc62c47.chunk.js.map": "/gribs/static/js/2.5bc62c47.chunk.js.map",
     "index.html": "/gribs/index.html",
-    "precache-manifest.214a2051f5282d8adfca552dc0df24cf.js": "/gribs/precache-manifest.214a2051f5282d8adfca552dc0df24cf.js",
+    "precache-manifest.092c8b2ea2a697e84177d59eadeacc1a.js": "/gribs/precache-manifest.092c8b2ea2a697e84177d59eadeacc1a.js",
     "service-worker.js": "/gribs/service-worker.js",
-    "static/css/main.2e07af5e.chunk.css.map": "/gribs/static/css/main.2e07af5e.chunk.css.map",
+    "static/css/main.eae86770.chunk.css.map": "/gribs/static/css/main.eae86770.chunk.css.map",
     "static/js/2.5bc62c47.chunk.js.LICENSE": "/gribs/static/js/2.5bc62c47.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9940a5c1.js",
     "static/js/2.5bc62c47.chunk.js",
-    "static/css/main.2e07af5e.chunk.css",
+    "static/css/main.eae86770.chunk.css",
     "static/js/main.d166b709.chunk.js"
   ]
 }

@@ -1,201 +1,16 @@
-/* @import "~materialize-css/dist/css/materialize.min.css";
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-}
-
-.parr {
-  font-family: 'Poppins', sans-serif;
-  padding: 10px;
-  background-color: gainsboro;
-}
-
-.section1 {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 50px 0;
-}
-
-.container1 {
-  text-align: center;
-}
-
-.parr-header {
-  font-size: 24vh;
-  text-transform: uppercase;
-  font-weight: 900;
-  line-height: 1em;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-attachment: fixed;
-} 
-
-.container1 p {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.section1:nth-child(1) .container1 .parr-header {
-  background-image: url('./fire.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-.section1:nth-child(2) .container1 .parr-header {
-  background-image: url('./water.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-.section1:nth-child(3) .container1 .parr-header {
-  background-image: url('./ice.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-.section1:nth-child(4) .container1 .parr-header {
-  background-image: url('./sand.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-
-.parr-html {
-  height: 100%;
-  overflow: hidden;
-}
-
-.parr-body {
-  color: lightgreen;
-  margin: 0;
-  padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.parralax2 {
-  box-sizing: border-box;
-  min-height: 10vh;
-  padding: 30vw 0 5vw;
-  position: relative;
-  transform-style: inherit;
-  width: 100vw;
-}
-
-.parr-header2 {
-  margin-top: -100px;
-}
-
-.parralax2, .parralax2:before {
-  background: 50% 50% / cover;
-}
-
-.parralax2::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  display: block;
-  background-image: url('./bg-header.jpg');
-  background-size: cover;
-  background-position: 100%;
-  transform-origin: center center 0;
-  transform: translateZ(-1px) scale(2);
-  z-index: -1;
-  min-height: 100vh;
-}
-
-.parralax2 * {
-  font-weight: normal;
-  letter-spacing: 0.2em;
-  text-align: center;
-  margin: 0;
-  padding: 1em 0;
-}
-
-.todo {
-  margin-bottom: 1rem;
-}
-
-.todo.completed span {
-  text-decoration: line-through;
-}
-
-.todo label {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  background: #f3f3f3;
-  padding: 1rem;
-}
-
-.todo i {
-  z-index: 2;
-}
- */
-
-
- /* html,
-body,
-#root {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-} */
-
-/* body {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
-    roboto, noto, segoe ui, arial, sans-serif;
-  background: transparent;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: default;
-} */
-
-/* #root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background: #f0f0f0;
-} */
-
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
-}
-
-.app {
   background: #314BAD;
   background: -webkit-linear-gradient(right, #314BAD, #E44EF5);
   background: -moz-linear-gradient(right, #314BAD, #E44EF5);
   background: linear-gradient(to left, #314BAD, #E44EF5);
+}
+
+.app {
   padding: 10px 0 0 0;
 }
 
@@ -275,12 +90,13 @@ display: grid;
   height: 80px;
   line-height: 80px;
   color: palevioletred;
-  font-size: 5em;
+  font-size: 80px;
   font-weight: 800;
   text-transform: uppercase;
   will-change: transform, opacity;
   overflow: hidden;
   text-align: center;
+  margin: 0;
 }
 
 .trails-text > div {
@@ -297,4 +113,53 @@ display: grid;
 
 .descrtiption__link:hover {
   color: blue;
+}
+
+@media (max-width: 800px) { 
+  .card {
+    width: 50%;
+    height: 30%;
+  }
+
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .trails-text {
+    font-size: 50px;
+  }
+
+  .descrtiption__wrapper {
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width: 440px) { 
+  .card {
+    width: 50%;
+    height: 20%;
+  }
+
+  .card__sign {
+    font-size: 20px;
+  }
+
+  .wrapper {
+    height: 600px;
+  }
+
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .trails-text {
+    font-size: 30px;
+    height: 50px;
+  }
+
+  .descrtiption__wrapper {
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
 }

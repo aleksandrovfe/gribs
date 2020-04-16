@@ -14,7 +14,7 @@ const ThreeJs = ({img, description, link, sign, codeLink}) => {
 
   return (
     <div className="wrapper">
-    <p className="card__sign">{sign}</p>
+      <p className="card__sign">{sign}</p>
         <animated.img
           src={img}
           className="card"
